@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  width: 40rem;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu li {
+  float: left;
+  width: 10rem;
+}
+.menu ul li ul {
+  display: none;
+}
+.menu ul li:hover ul {
+  display: block;
+}
+.menu ul li a {
+  text-decoration: none;
+  display: block;
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 10px;
+  text-align: center;
+  
+}
+.menu ul li a:hover{
+  background-color: whitesmoke;
+  color: aqua;
+  transition: 0.5s;
+}
